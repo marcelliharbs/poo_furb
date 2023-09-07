@@ -19,5 +19,7 @@ public class MontandoComputador {
 
         ModeloDeComputador pc = new ModeloDeComputador(processador, memoria, discoRigido, monitor);
         System.out.printf("O valor total do computador: R$%.2f%n", pc.calculaPreco());
+
+        sc.close();
     }
 }
