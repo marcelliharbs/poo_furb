@@ -1,6 +1,5 @@
+//Marcelli Harbs e Alexandro Debastiani Brandt
 package entities;
-
-import java.util.Scanner;
 
 public class Carro {
 
@@ -51,7 +50,6 @@ public class Carro {
     }
 
     public String imprimirCarro() {
-        return "Modelo: " + modelo + "; Marca: " + marca + "; Placa: " + placa + "; Cor: " + cor + "; Ano: " + ano + "; Preço: " + String.format("%.4f", preco) + "; Localização: " + localizacao;
-    }
+        return String.format("Modelo: %s; Marca: %s; Placa: %s; Cor: %s; Ano: %d; Preço: %.4f; Localização: %d.", modelo, marca, placa, cor, ano, preco, localizacao);    }
 
 }
