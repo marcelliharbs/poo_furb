@@ -1,3 +1,4 @@
+//Marcelli Rita Harbs
 package entities;
 
 public class Funcionario {
